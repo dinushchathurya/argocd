@@ -11,7 +11,7 @@ items:
       project: default
       source:
         repoURL: https://github.com/dinushchathurya/argocd/combined-demo.git
-        path: argo/argo-rollouts
+        path: argo/argo-rollout
       destination: *dest
       syncPolicy: *policy
 
