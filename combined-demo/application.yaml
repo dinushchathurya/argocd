@@ -10,8 +10,8 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/dinushchathurya/argocd/combined-demo.git
-        path: argo/argo-rollout
+        repoURL: https://github.com/dinushchathurya/combined-demo.git
+        path: infrastructure/argo-rollouts
       destination: *dest
       syncPolicy: *policy
 
@@ -24,8 +24,8 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/dinushchathurya/argocd/combined-demo.git
-        path: application
+        repoURL: https://github.com/dinushchathurya/combined-demo.git
+        path: infrastructure/minio
       destination: *dest
       syncPolicy: *policy
 
